@@ -1,4 +1,4 @@
-class API::PortfolioController < ApplicationController
+class Api::PortfolioController < ApplicationController
 
   def index
     @portfolios = Portfolio.all
