@@ -15,5 +15,10 @@ class Adapter{
       .then(res => res.json())
   }
 
+  // static addStockToPortfolio(){
+  //   return fetch(`http://localhost:3000/api/stocks`)
+  //     .then(res => res.json())
+  // }
+
 
 }

@@ -9,8 +9,8 @@
 rochel = User.create(f_name: "rochel", l_name: "levi", email: "rochel@gmail.com")
 
 pharma = Portfolio.create(name: "Pharma Portfolio", user_id: rochel.id)
-# tech = Portfolio.create(name: "Tech Fund", user_id: rochel.id)
-# blue_chip = Portfolio.create(name: "Blue Chip Stocks", user_id: rochel.id)
+tech = Portfolio.create(name: "Tech Fund", user_id: rochel.id)
+blue_chip = Portfolio.create(name: "Blue Chip Stocks", user_id: rochel.id)
 
 gild = Stock.create(ticker: 'gild')
 wsm = Stock.create(ticker: 'wsm')
@@ -23,8 +23,8 @@ amgn = Stock.create(ticker: 'amgn')
 teva = Stock.create(ticker: 'teva')
 
 Stockportfolio.create(stock_id: gild.id, portfolio_id: pharma.id, quantity: 5)
-# Stockportfolio.create(stock_id: vz.id, portfolio_id: blue_chip.id, quantity: 7)
-# Stockportfolio.create(stock_id: wsm.id, portfolio_id: blue_chip.id, quantity: 25)
+Stockportfolio.create(stock_id: vz.id, portfolio_id: blue_chip.id, quantity: 7)
+Stockportfolio.create(stock_id: wsm.id, portfolio_id: blue_chip.id, quantity: 25)
 Stockportfolio.create(stock_id: amgn.id, portfolio_id: pharma.id, quantity: 11)
-# Stockportfolio.create(stock_id: grpn.id, portfolio_id: tech.id, quantity: 34)
+Stockportfolio.create(stock_id: grpn.id, portfolio_id: tech.id, quantity: 34)
 Stockportfolio.create(stock_id: teva.id, portfolio_id: pharma.id, quantity: 72)

@@ -6,6 +6,9 @@ let Portfolio = (function createPortfolioClass(){
       this.userId = userId
       this.name = name
       this.stocks = stocks
+      this.stocks.forEach((stock) => {
+        stock.ticker = Stock.findTickerById(stock.stock_id)
+      })
       all.push(this)
     }
 
@@ -13,9 +16,9 @@ let Portfolio = (function createPortfolioClass(){
       return [...all]
     }
 
-    renderPieChart(dataForChart) {
+    renderPieChart(dataForChart, id) {
 
-      const chartDiv = document.getElementById("pie-chart-div")
+      const chartDiv = document.getElementById(`pie-chart-div-${id}`)
       chartDiv.innerHTML += `<div id="piechart-${this.id}"></div>`
       // Load google charts
       google.charts.load('current', {'packages':['corechart']});
@@ -50,7 +53,17 @@ let Portfolio = (function createPortfolioClass(){
                             (this.dataForChart).push([stockTicker, parseInt(price)*quantity])
                             return this.dataForChart
                           })
-                          .then(dataForChart => this.renderPieChart(dataForChart))
+                          .then(dataForChart => this.renderPieChart(dataForChart, this.id))
+      })
+    }
+
+    renderSidebar(id){
+      // let sidebarDiv = document.getElementById(`sidebar-div-${id}`)
+      this.stocks.forEach((el) => {
+        Adapter.getStockPrice(el.ticker)
+                          .then(data => data['Time Series (1min)'])
+                          .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+                          .then((price) => HTML.addSidebarToPortfolio(id, el, price))
       })
     }
 
@@ -62,11 +75,11 @@ function getPortfoliosFromBackend(){
   return Adapter.getPortfolios()
     .then(data => data.forEach((el) =>{
       new Portfolio(el.id, el.user_id, el.name, el.stockportfolios)
+      HTML.addPortfolioHtml(el.id)
     }))
-    .then(x => {Portfolio.all().forEach((el) => el.createDataArrayForPieChart())})
+    .then(x => {Portfolio.all().forEach((el) => {
+      el.createDataArrayForPieChart()
+      el.renderSidebar(el.id)
+    })})
 
-}
-
-function renderSidebar(){
-  let sidebarDiv = Document.getElementById("sidebar-div")
 }
