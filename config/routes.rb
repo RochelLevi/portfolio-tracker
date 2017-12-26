@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :portfolio, only: [:index, :show, :new, :create, :delete]
     resources :stocks, only: [:index, :show, :new, :create, :delete]
+    resources :stockportfolios, only: [:index, :show, :new, :create, :delete]
   end
 
 

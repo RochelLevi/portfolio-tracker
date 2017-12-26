@@ -10,15 +10,21 @@ class Adapter{
       .then(res => res.json())
   }
 
+  //not in use
   static getStocks(){
     return fetch(`http://localhost:3000/api/stocks`)
       .then(res => res.json())
   }
 
-  // static addStockToPortfolio(){
-  //   return fetch(`http://localhost:3000/api/stocks`)
-  //     .then(res => res.json())
-  // }
-
+  static addStockToPortfolio(portfolio, ticker, quantity){
+    return fetch(`http://localhost:3000/api/stockportfolios`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({portfolio_id: portfolio.id, quantity: quantity, ticker: ticker})
+    }).then(res => res.json())
+  }
 
 }

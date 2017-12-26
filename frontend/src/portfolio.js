@@ -6,9 +6,9 @@ let Portfolio = (function createPortfolioClass(){
       this.userId = userId
       this.name = name
       this.stocks = stocks
-      this.stocks.forEach((stock) => {
-        stock.ticker = Stock.findTickerById(stock.stock_id)
-      })
+      // this.stocks.forEach((stock) => {
+      //   stock.ticker = Stock.findTickerById(stock.stock_id)
+      // })
       all.push(this)
     }
 
@@ -31,7 +31,7 @@ let Portfolio = (function createPortfolioClass(){
         let data = google.visualization.arrayToDataTable(self.dataForChart);
 
         // Optional; add a title and set the width and height of the chart
-        let options = {'title':self.name, 'width':800, 'height':600, 'pieHole': 0.4};
+        let options = {'title':self.name, 'width':600, 'height':450, 'pieHole': 0.4, 'titleTextStyle': {'fontSize': 30}};
 
         // Display the chart inside the <div> element with id="piechart"
         let chart = new google.visualization.PieChart(document.getElementById(`piechart-${self.id}`));
@@ -40,11 +40,11 @@ let Portfolio = (function createPortfolioClass(){
       }
     }
 
-    createDataArrayForPieChart(){
+    createDataArrayAndRenderPieChart(){
       // {label: 'Position', type: 'string'}, {label: 'Value', type: 'number'}
       this.dataForChart = [['Position', 'Value']]
       this.stocks.forEach((el) => {
-        let stockTicker = Stock.findTickerById(el.stock_id)
+        let stockTicker = el.ticker
         let quantity = el.quantity
         let stockPrice = Adapter.getStockPrice(stockTicker)
                           .then(data => data['Time Series (1min)'])
@@ -75,11 +75,5 @@ function getPortfoliosFromBackend(){
   return Adapter.getPortfolios()
     .then(data => data.forEach((el) =>{
       new Portfolio(el.id, el.user_id, el.name, el.stockportfolios)
-      HTML.addPortfolioHtml(el.id)
     }))
-    .then(x => {Portfolio.all().forEach((el) => {
-      el.createDataArrayForPieChart()
-      el.renderSidebar(el.id)
-    })})
-
 }

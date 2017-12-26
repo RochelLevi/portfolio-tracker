@@ -1,3 +1,4 @@
+//not using. eventually maybe will use to validate tickers
 let Stock = (function createStockClass(){
   const all = []
   return class Stock{

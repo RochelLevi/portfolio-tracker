@@ -6,25 +6,25 @@ class HTML{
 
         <!-- add stock form -->
         <div class="row">
+          <h3>Buy Stock</h3>
           <form id="add-stock-form-${id}" class="" action="index.html" method="post">
             <label for="add-stock-form-ticker">Ticker: </label>
             <input id="add-stock-form-ticker-${id}" type="text" name="" value=""><br>
             <label for="add-stock-form-quantity">Quantity</label>
-            <input id="add-stock-form-quantity-${id}" type="text" name="" value="">
+            <input id="add-stock-form-quantity-${id}" type="text" name="" value=""><br>
             <input type="submit" value="Submit">
           </form>
         </div>
 
 
-
         <div class="row">
           <!-- sidebar list of positions -->
-          <div class="col-md-3" id="sidebar-div-${id}">
+          <div class="col-md-2" id="sidebar-div-${id}">
 
           </div>
 
           <!-- portfolio pie chart -->
-          <div class="col-md-9" id="pie-chart-div-${id}">
+          <div class="col-md-6" id="pie-chart-div-${id}">
 
           </div>
         </div>
