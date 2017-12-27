@@ -1,14 +1,12 @@
 let Portfolio = (function createPortfolioClass(){
   const all = []
   return class Portfolio{
-    constructor(id, userId, name, stocks){
+    constructor(id, userId, name, stocks, cashBalance){
       this.id = id
       this.userId = userId
       this.name = name
+      this.cashBalance = cashBalance
       this.stocks = stocks
-      // this.stocks.forEach((stock) => {
-      //   stock.ticker = Stock.findTickerById(stock.stock_id)
-      // })
       all.push(this)
     }
 
@@ -16,9 +14,21 @@ let Portfolio = (function createPortfolioClass(){
       return [...all]
     }
 
-    renderPieChart(dataForChart, id) {
+    getStockPrices() {
+      this.stocks.forEach((stock) => {
+      Adapter.getStockPrice(stock.ticker)
+      .then(data => data['Time Series (1min)'])
+      .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+        // console.log(stock.price)
+      })
+    }
 
-      const chartDiv = document.getElementById(`pie-chart-div-${id}`)
+    renderPieChart(dataForChart) {
+      const valueEl = document.getElementById(`portfolio-value-${this.id}`)
+      let value = dataForChart.slice(1).reduce( (prev, curr) => prev + parseInt(curr[1]), 0);
+      valueEl.innerHTML = `Portfolio Value: ${value}`
+
+      const chartDiv = document.getElementById(`pie-chart-div-${this.id}`)
       chartDiv.innerHTML += `<div id="piechart-${this.id}"></div>`
       // Load google charts
       google.charts.load('current', {'packages':['corechart']});
@@ -31,42 +41,43 @@ let Portfolio = (function createPortfolioClass(){
         let data = google.visualization.arrayToDataTable(self.dataForChart);
 
         // Optional; add a title and set the width and height of the chart
-        let options = {'title':self.name, 'width':600, 'height':450, 'pieHole': 0.4, 'titleTextStyle': {'fontSize': 30}};
+        let options = {'title':self.name, 'width':600, 'height':450, 'pieHole': 0.3, 'titleTextStyle': {'fontSize': 30}};
 
         // Display the chart inside the <div> element with id="piechart"
         let chart = new google.visualization.PieChart(document.getElementById(`piechart-${self.id}`));
-        // console.log(data)
+
         chart.draw(data, options);
       }
     }
 
     createDataArrayAndRenderPieChart(){
-      // {label: 'Position', type: 'string'}, {label: 'Value', type: 'number'}
-      this.dataForChart = [['Position', 'Value']]
+      this.dataForChart = [['Position', 'Value'], ['Cash', this.cashBalance]]
       this.stocks.forEach((el) => {
         let stockTicker = el.ticker
         let quantity = el.quantity
-        let stockPrice = Adapter.getStockPrice(stockTicker)
-                          .then(data => data['Time Series (1min)'])
-                          .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
-                          .then((price) => {
-                            (this.dataForChart).push([stockTicker, parseInt(price)*quantity])
-                            return this.dataForChart
-                          })
-                          .then(dataForChart => this.renderPieChart(dataForChart, this.id))
-      })
-    }
+        Adapter.getStockPrice(stockTicker)
+          .then(data => data['Time Series (1min)'])
+          .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+          .then((price) => {(this.dataForChart).push([stockTicker, parseFloat(price).toFixed(2)*quantity]); return this.dataForChart})
+          //dataForChart for some reason collapses outside of the promise. Can't figure it out
+          //so rendering within the promise
+          // .then(dataForChart => this.renderPieChart(dataForChart))
+          .then(dataForChart => {dataForChart.length > this.stocks.length + 1 ?  this.renderPieChart(dataForChart) : null})
+          // console.log(`dataForChartLength ${dataForChart.length}`); console.log(`thisStocksLength  ${this.stocks.length}`);
+        })
+      }
 
-    renderSidebar(id){
+
+    renderSidebar(){
       // let sidebarDiv = document.getElementById(`sidebar-div-${id}`)
+      let id = this.id
       this.stocks.forEach((el) => {
         Adapter.getStockPrice(el.ticker)
-                          .then(data => data['Time Series (1min)'])
-                          .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
-                          .then((price) => HTML.addSidebarToPortfolio(id, el, price))
+            .then(data => data['Time Series (1min)'])
+            .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+            .then((price) => HTML.addStockToSidebar(id, el, price))
       })
     }
-
 
   }
 })()
@@ -74,6 +85,6 @@ let Portfolio = (function createPortfolioClass(){
 function getPortfoliosFromBackend(){
   return Adapter.getPortfolios()
     .then(data => data.forEach((el) =>{
-      new Portfolio(el.id, el.user_id, el.name, el.stockportfolios)
+      new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance)
     }))
 }

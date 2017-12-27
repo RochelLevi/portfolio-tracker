@@ -5,6 +5,11 @@ class Api::PortfolioController < ApplicationController
     render json: @portfolios
   end
 
+  def create
+    @portfolio = Portfolio.create(portfolio_params)
+    render json: @portfolio
+  end
+
   def update
     @portfolio = Portfolio.find(params[:id])
 
@@ -18,6 +23,6 @@ class Api::PortfolioController < ApplicationController
 
   private
     def portfolio_params
-      params.permit(:name)
+      params.permit(:name, :cash_balance)
     end
 end
