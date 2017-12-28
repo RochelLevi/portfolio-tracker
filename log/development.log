@@ -13009,3 +13009,1932 @@ Unpermitted parameter: :stockportfolio
 Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:24:17 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.5ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:43:08 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (4.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (2.6ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (14.69ms)
+Completed 200 OK in 22ms (Views: 14.6ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:43:56 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (11.19ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:04 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.18ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:13 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.77ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:19 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.12ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:24 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.78ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:31 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.6ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (9.07ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:37 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.07ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:39 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.41ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:41 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.6ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:44:43 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (15.12ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:45:15 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (38.91ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5042.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:50:46 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (46.76ms)
+Completed 200 OK in 90ms (Views: 70.2ms | ActiveRecord: 12.5ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (131.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (129.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_test"[0m
+  [1m[35m (365.9ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_development" ENCODING = 'unicode'[0m
+  [1m[35m (253.0ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-27 21:51:05.018938"], ["updated_at", "2017-12-27 21:51:05.018938"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-27 21:51:05.090993"], ["updated_at", "2017-12-27 21:51:05.090993"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:51:12 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.21ms)
+Completed 200 OK in 17ms (Views: 7.1ms | ActiveRecord: 3.3ms)
+
+
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:51:16 -0500
+Processing by Api::PortfolioController#create as JSON
+  Parameters: {"name"=>"Rochel's Portfolio", "portfolio"=>{"name"=>"Rochel's Portfolio"}}
+Unpermitted parameter: :portfolio
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "portfolios" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Rochel's Portfolio"], ["created_at", "2017-12-27 21:51:16.727233"], ["updated_at", "2017-12-27 21:51:16.727233"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (19.57ms)
+Completed 200 OK in 47ms (Views: 28.8ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:51:22 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.43ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:51:30 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.37ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 16:51:33 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.37ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 16:51:40 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>82379, "id"=>"1", "portfolio"=>{"cash_balance"=>82379}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 82379], ["updated_at", "2017-12-27 21:51:40.108297"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.17ms)
+Completed 200 OK in 11ms (Views: 2.3ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-27 16:51:40 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"AMGN", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"AMGN"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-27 21:51:40.141658"], ["updated_at", "2017-12-27 21:51:40.141658"], ["quantity", 100], ["ticker", "AMGN"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.21ms)
+Completed 200 OK in 21ms (Views: 2.3ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 17:01:16 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (27.95ms)
+Completed 200 OK in 61ms (Views: 37.7ms | ActiveRecord: 17.4ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 17:01:26 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>-7215621, "id"=>"1", "portfolio"=>{"cash_balance"=>-7215621}}
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 17ms (Views: 4.8ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-27 17:01:26 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"100000", "ticker"=>"GILD", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"100000", "ticker"=>"GILD"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-27 22:01:26.778043"], ["updated_at", "2017-12-27 22:01:26.778043"], ["quantity", 100000], ["ticker", "GILD"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.2ms)
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 17:02:00 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.67ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 17:02:49 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (19.97ms)
+Completed 200 OK in 49ms (Views: 27.4ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:49:49 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.6ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.12ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:49:51 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (2.8ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.97ms)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:49:53 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.1ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.31ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:50:00 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (6.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.1ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.76ms)
+Completed 200 OK in 21ms (Views: 13.6ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:50:04 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.9ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (12.13ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:50:37 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.09ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 21:52:28 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>-373317621.00000006, "id"=>"1", "portfolio"=>{"cash_balance"=>-373317621.00000006}}
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 8ms (Views: 2.7ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-27 21:52:28 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"10000000", "ticker"=>"SCI", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"10000000", "ticker"=>"SCI"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 02:52:28.738847"], ["updated_at", "2017-12-28 02:52:28.738847"], ["quantity", 10000000], ["ticker", "SCI"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.27ms)
+Completed 200 OK in 9ms (Views: 1.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:52:37 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.6ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 21:53:09 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>-53177621, "id"=>"1", "portfolio"=>{"cash_balance"=>-53177621}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 422 Unprocessable Entity in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5041.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (127.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (129.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_test"[0m
+  [1m[35m (365.8ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_development" ENCODING = 'unicode'[0m
+  [1m[35m (246.6ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 02:58:52.598904"], ["updated_at", "2017-12-28 02:58:52.598904"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (6.7ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 02:58:52.670961"], ["updated_at", "2017-12-28 02:58:52.670961"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:59:03 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.16ms)
+Completed 200 OK in 21ms (Views: 10.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:59:22 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 26ms (Views: 9.6ms | ActiveRecord: 16.2ms)
+
+
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:59:28 -0500
+Processing by Api::PortfolioController#create as JSON
+  Parameters: {"name"=>"Rochel's Portfolio", "portfolio"=>{"name"=>"Rochel's Portfolio"}}
+Unpermitted parameter: :portfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "portfolios" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Rochel's Portfolio"], ["created_at", "2017-12-28 02:59:28.204778"], ["updated_at", "2017-12-28 02:59:28.204778"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (27.42ms)
+Completed 200 OK in 62ms (Views: 38.4ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:59:34 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.72ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-27 21:59:55 -0500
+Processing by Api::PortfolioController#create as JSON
+  Parameters: {"name"=>"Adam's Portfolio", "portfolio"=>{"name"=>"Adam's Portfolio"}}
+Unpermitted parameter: :portfolio
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "portfolios" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Adam's Portfolio"], ["created_at", "2017-12-28 02:59:55.043470"], ["updated_at", "2017-12-28 02:59:55.043470"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.8ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.56ms)
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:00:08 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.6ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.11ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:00:14 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.78ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT  "stockportfolios".* FROM "stockportfolios" LIMIT $1[0m  [["LIMIT", 11]]
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 22:01:27 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>82379, "id"=>"1", "portfolio"=>{"cash_balance"=>82379}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 82379], ["updated_at", "2017-12-28 03:01:27.241297"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.48ms)
+Completed 200 OK in 10ms (Views: 1.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:03:03 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.24ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 1.4ms)
+
+
+Started PATCH "/api/portfolio/2" for 127.0.0.1 at 2017-12-27 22:03:11 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>92702, "id"=>"2", "portfolio"=>{"cash_balance"=>92702}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 92702], ["updated_at", "2017-12-28 03:03:11.278475"], ["id", 2]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.77ms)
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 2.6ms)
+
+
+Started PATCH "/api/portfolio/2" for 127.0.0.1 at 2017-12-27 22:03:23 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>-729707298, "id"=>"2", "portfolio"=>{"cash_balance"=>-729707298}}
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 26ms (Views: 13.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:06:35 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (2.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.72ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:06:53 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (2.0ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (8.55ms)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:06:59 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.9ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.7ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.32ms)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:07:22 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.0ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.56ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:08:48 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.07ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:09:06 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.22ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:09:55 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.9ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.07ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:10:37 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (2.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.72ms)
+Completed 200 OK in 15ms (Views: 10.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:11:26 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.48ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:11:43 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.95ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 22:11:50 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>75081, "id"=>"1", "portfolio"=>{"cash_balance"=>75081}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 75081], ["updated_at", "2017-12-28 03:11:50.940289"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.31ms)
+Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-27 22:11:50 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"GILD", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"GILD"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 03:11:50.972241"], ["updated_at", "2017-12-28 03:11:50.972241"], ["quantity", 100], ["ticker", "GILD"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 20ms (Views: 2.4ms | ActiveRecord: 5.3ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (5044.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (127.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (130.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_test"[0m
+  [1m[35m (362.2ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_development" ENCODING = 'unicode'[0m
+  [1m[35m (251.4ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 03:12:39.231013"], ["updated_at", "2017-12-28 03:12:39.231013"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 03:12:39.300672"], ["updated_at", "2017-12-28 03:12:39.300672"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:12:44 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 20ms (Views: 9.1ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:12:50 -0500
+Processing by Api::PortfolioController#create as JSON
+  Parameters: {"name"=>"Rochel's Pharma Portfolio", "portfolio"=>{"name"=>"Rochel's Pharma Portfolio"}}
+Unpermitted parameter: :portfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "portfolios" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Rochel's Pharma Portfolio"], ["created_at", "2017-12-28 03:12:50.329661"], ["updated_at", "2017-12-28 03:12:50.329661"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (27.36ms)
+Completed 200 OK in 57ms (Views: 37.6ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:12:56 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.55ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:13:18 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.38ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 22:13:30 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>47137, "id"=>"1", "portfolio"=>{"cash_balance"=>47137}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 47137], ["updated_at", "2017-12-28 03:13:30.022954"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.9ms)
+Completed 200 OK in 11ms (Views: 2.2ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-27 22:13:30 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"300", "ticker"=>"AMGN", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"300", "ticker"=>"AMGN"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 03:13:30.054485"], ["updated_at", "2017-12-28 03:13:30.054485"], ["quantity", 300], ["ticker", "AMGN"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.15ms)
+Completed 200 OK in 21ms (Views: 2.5ms | ActiveRecord: 4.3ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-27 22:13:43 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>-72932863, "id"=>"1", "portfolio"=>{"cash_balance"=>-72932863}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 20ms (Views: 3.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-27 22:13:46 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.09ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:43:03 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.72ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 2.1ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:43:13 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>39841, "id"=>"1", "portfolio"=>{"cash_balance"=>39841}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 39841], ["updated_at", "2017-12-28 14:43:13.741758"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.9ms)
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:43:13 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"GILD", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"GILD"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:43:13.757822"], ["updated_at", "2017-12-28 14:43:13.757822"], ["quantity", 100], ["ticker", "GILD"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.13ms)
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:43:25 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.7ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:43:39 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>36041, "id"=>"1", "portfolio"=>{"cash_balance"=>36041}}
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 36041], ["updated_at", "2017-12-28 14:43:39.486091"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.14ms)
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:43:39 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"200", "ticker"=>"TEVA", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"200", "ticker"=>"TEVA"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:43:39.500434"], ["updated_at", "2017-12-28 14:43:39.500434"], ["quantity", 200], ["ticker", "TEVA"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:44:13 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>25447, "id"=>"1", "portfolio"=>{"cash_balance"=>25447}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 25447], ["updated_at", "2017-12-28 14:44:13.461865"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.72ms)
+Completed 200 OK in 9ms (Views: 2.8ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:44:13 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"200", "ticker"=>"WSM", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"200", "ticker"=>"WSM"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:44:13.476055"], ["updated_at", "2017-12-28 14:44:13.476055"], ["quantity", 200], ["ticker", "WSM"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.15ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:45:09 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.17ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:45:18 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>20109, "id"=>"1", "portfolio"=>{"cash_balance"=>20109}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 20109], ["updated_at", "2017-12-28 14:45:18.806019"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.08ms)
+Completed 200 OK in 8ms (Views: 2.3ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:45:18 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"VZ", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"VZ"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:45:18.819642"], ["updated_at", "2017-12-28 14:45:18.819642"], ["quantity", 100], ["ticker", "VZ"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:46:41 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.43ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:46:51 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>19228.35, "id"=>"1", "portfolio"=>{"cash_balance"=>19228.35}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 19228], ["updated_at", "2017-12-28 14:46:51.613393"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.4ms)
+Completed 200 OK in 9ms (Views: 2.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:46:51 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"5", "ticker"=>"AMGN", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"5", "ticker"=>"AMGN"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:46:51.627415"], ["updated_at", "2017-12-28 14:46:51.627415"], ["quantity", 5], ["ticker", "AMGN"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:47:25 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.97ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:47:34 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>18502.9, "id"=>"1", "portfolio"=>{"cash_balance"=>18502.9}}
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 18502], ["updated_at", "2017-12-28 14:47:34.140149"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.48ms)
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:47:34 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"10", "ticker"=>"GILD", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"10", "ticker"=>"GILD"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:47:34.154181"], ["updated_at", "2017-12-28 14:47:34.154181"], ["quantity", 10], ["ticker", "GILD"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.14ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:47:45 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.02ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:48:03 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>18425.92, "id"=>"1", "portfolio"=>{"cash_balance"=>18425.92}}
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 18425], ["updated_at", "2017-12-28 14:48:03.476648"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.91ms)
+Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:48:03 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"4", "ticker"=>"TEVA", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"4", "ticker"=>"TEVA"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.2ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:48:03.491430"], ["updated_at", "2017-12-28 14:48:03.491430"], ["quantity", 4], ["ticker", "TEVA"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (127.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (127.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_test"[0m
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:48:53 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:48:58 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:49:10 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:49:22 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:49:25 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:49:40 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:49:56 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:50:03 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:50:22 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:50:34 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "portfolio--tracker_development" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_development"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "portfolio--tracker_test"[0m
+  [1m[35m (365.1ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_development" ENCODING = 'unicode'[0m
+  [1m[35m (252.1ms)[0m  [1m[35mCREATE DATABASE "portfolio--tracker_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 14:51:07.988693"], ["updated_at", "2017-12-28 14:51:07.988693"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "portfolios" CASCADE[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE "portfolios" ("id" bigserial primary key, "user_id" integer, "name" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "cash_balance" integer DEFAULT 100000)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "stockportfolios" CASCADE[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "stockportfolios" ("id" bigserial primary key, "stock_id" integer, "portfolio_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "quantity" integer, "ticker" text)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "stocks" CASCADE[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "stocks" ("id" bigserial primary key, "ticker" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "f_name" text, "l_name" text, "email" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20171226182312)[0m
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20171221211303),
+(20171221211339),
+(20171221211429),
+(20171221211513),
+(20171221223408),
+(20171225214343);
+
+[0m
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 14:51:08.055684"], ["updated_at", "2017-12-28 14:51:08.055684"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:51:26 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PortfolioController#index as HTML
+  [1m[36mPortfolio Load (1.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.17ms)
+Completed 200 OK in 20ms (Views: 9.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:51:30 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.11ms)
+Completed 200 OK in 22ms (Views: 11.2ms | ActiveRecord: 9.9ms)
+
+
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:51:34 -0500
+Processing by Api::PortfolioController#create as JSON
+  Parameters: {"name"=>"Rochel's Portfolio", "portfolio"=>{"name"=>"Rochel's Portfolio"}}
+Unpermitted parameter: :portfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "portfolios" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Rochel's Portfolio"], ["created_at", "2017-12-28 14:51:34.408672"], ["updated_at", "2017-12-28 14:51:34.408672"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (1.0ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (25.8ms)
+Completed 200 OK in 65ms (Views: 38.4ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:51:42 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.48ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:55:47 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.62ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 1.3ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:55:55 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>82430, "id"=>"1", "portfolio"=>{"cash_balance"=>82430}}
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 82430], ["updated_at", "2017-12-28 14:55:55.260664"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.56ms)
+Completed 200 OK in 13ms (Views: 2.4ms | ActiveRecord: 3.9ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:55:55 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"AMGN", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"100", "ticker"=>"AMGN"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:55:55.296710"], ["updated_at", "2017-12-28 14:55:55.296710"], ["quantity", 100], ["ticker", "AMGN"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.16ms)
+Completed 200 OK in 24ms (Views: 2.6ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:56:02 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.52ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:56:04 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.92ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:56:17 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.13ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:56:22 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.81ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:56:47 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.5ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (6.18ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:57:02 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.8ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (3.55ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:57:12 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.6ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.59ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:57:55 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.17ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 09:58:06 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>67960, "id"=>"1", "portfolio"=>{"cash_balance"=>67960}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 67960], ["updated_at", "2017-12-28 14:58:06.765492"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.81ms)
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:58:06 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"200", "ticker"=>"GILD", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"200", "ticker"=>"GILD"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 14:58:06.778701"], ["updated_at", "2017-12-28 14:58:06.778701"], ["quantity", 200], ["ticker", "GILD"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.12ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:58:11 -0500
+Processing by Api::PortfolioController#create as JSON
+  Parameters: {"name"=>"David's Portfolio", "portfolio"=>{"name"=>"David's Portfolio"}}
+Unpermitted parameter: :portfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "portfolios" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "David's Portfolio"], ["created_at", "2017-12-28 14:58:11.326746"], ["updated_at", "2017-12-28 14:58:11.326746"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.4ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.89ms)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 09:58:18 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (4.37ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/api/portfolio/2" for 127.0.0.1 at 2017-12-28 09:58:27 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>89474, "id"=>"2", "portfolio"=>{"cash_balance"=>89474}}
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 89474], ["updated_at", "2017-12-28 14:58:27.888249"], ["id", 2]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (1.45ms)
+Completed 200 OK in 7ms (Views: 1.7ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 09:58:27 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>2, "quantity"=>"200", "ticker"=>"WSM", "stockportfolio"=>{"portfolio_id"=>2, "quantity"=>"200", "ticker"=>"WSM"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 2], ["created_at", "2017-12-28 14:58:27.900850"], ["updated_at", "2017-12-28 14:58:27.900850"], ["quantity", 200], ["ticker", "WSM"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.16ms)
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 10:20:29 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (5.73ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 10:24:57 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (1.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (2.0ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.8ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (29.0ms)
+Completed 200 OK in 56ms (Views: 44.6ms | ActiveRecord: 3.8ms)
+
+
+Started PATCH "/api/portfolio/1" for 127.0.0.1 at 2017-12-28 10:25:21 -0500
+Processing by Api::PortfolioController#update as JSON
+  Parameters: {"cash_balance"=>60396, "id"=>"1", "portfolio"=>{"cash_balance"=>60396}}
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Unpermitted parameters: :id, :portfolio
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "portfolios" SET "cash_balance" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["cash_balance", 60396], ["updated_at", "2017-12-28 15:25:21.587656"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.3ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered PortfolioSerializer with ActiveModelSerializers::Adapter::Attributes (2.45ms)
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/stockportfolios" for 127.0.0.1 at 2017-12-28 10:25:21 -0500
+Processing by Api::StockportfoliosController#create as JSON
+  Parameters: {"portfolio_id"=>1, "quantity"=>"400", "ticker"=>"TEVA", "stockportfolio"=>{"portfolio_id"=>1, "quantity"=>"400", "ticker"=>"TEVA"}}
+Unpermitted parameter: :stockportfolio
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "stockportfolios" ("portfolio_id", "created_at", "updated_at", "quantity", "ticker") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["portfolio_id", 1], ["created_at", "2017-12-28 15:25:21.607919"], ["updated_at", "2017-12-28 15:25:21.607919"], ["quantity", 400], ["ticker", "TEVA"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered StockportfolioSerializer with ActiveModelSerializers::Adapter::Attributes (0.25ms)
+Completed 200 OK in 7ms (Views: 0.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/api/portfolio" for 127.0.0.1 at 2017-12-28 10:27:39 -0500
+Processing by Api::PortfolioController#index as */*
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+[active_model_serializers]   [1m[36mStockportfolio Load (0.6ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+[active_model_serializers]   [1m[36mStockportfolio Load (0.2ms)[0m  [1m[34mSELECT "stockportfolios".* FROM "stockportfolios" WHERE "stockportfolios"."portfolio_id" = $1[0m  [["portfolio_id", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (7.97ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 1.3ms)
+
+

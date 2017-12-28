@@ -1,8 +1,7 @@
 class Adapter{
   static getStockPrice(ticker){
-    let key = "0KZIZFNYCY87CCZ6"
-    return fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=${ticker}&interval=1min&apikey=${key}`)
-      .then(res => res.json())
+    return fetch(`https://api.iextrading.com/1.0/stock/${ticker}/quote`)
+      .then(resp => resp.json())
   }
 
   static getPortfolios(){

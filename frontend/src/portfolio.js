@@ -17,8 +17,9 @@ let Portfolio = (function createPortfolioClass(){
     getStockPrices() {
       this.stocks.forEach((stock) => {
       Adapter.getStockPrice(stock.ticker)
-      .then(data => data['Time Series (1min)'])
-      .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+      .then(data => data["latestPrice"])
+      // .then(data => data['Time Series (1min)'])
+      // .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
         // console.log(stock.price)
       })
     }
@@ -56,8 +57,7 @@ let Portfolio = (function createPortfolioClass(){
         let stockTicker = el.ticker
         let quantity = el.quantity
         Adapter.getStockPrice(stockTicker)
-          .then(data => data['Time Series (1min)'])
-          .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+          .then(data => data["latestPrice"])
           .then((price) => {(this.dataForChart).push([stockTicker, parseFloat(price).toFixed(2)*quantity]); return this.dataForChart})
           //dataForChart for some reason collapses outside of the promise. Can't figure it out
           //so rendering within the promise
@@ -65,26 +65,18 @@ let Portfolio = (function createPortfolioClass(){
           .then(dataForChart => {dataForChart.length > this.stocks.length + 1 ?  this.renderPieChart(dataForChart) : null})
           // console.log(`dataForChartLength ${dataForChart.length}`); console.log(`thisStocksLength  ${this.stocks.length}`);
         })
+        return 1
       }
 
 
     renderSidebar(){
-      // let sidebarDiv = document.getElementById(`sidebar-div-${id}`)
       let id = this.id
       this.stocks.forEach((el) => {
         Adapter.getStockPrice(el.ticker)
-            .then(data => data['Time Series (1min)'])
-            .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
+            .then(data => data["latestPrice"])
             .then((price) => HTML.addStockToSidebar(id, el, price))
       })
     }
 
   }
 })()
-
-function getPortfoliosFromBackend(){
-  return Adapter.getPortfolios()
-    .then(data => data.forEach((el) =>{
-      new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance)
-    }))
-}

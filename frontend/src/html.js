@@ -39,6 +39,11 @@ class HTML{
         <h3>${el.ticker}</h3>
         <p>${price}</p>
         <p>Quantity: ${el.quantity}</p>
+        <button type="button" name="button" id="sell-portfolio-${id}-stockportfolio-${el.id}">Sell All ${el.ticker} Shares</button>
       </div>`
+    document.getElementById(`sell-portfolio-${id}-stockportfolio-${el.id}`).addEventListener('click',(e) => {
+      e.preventDefault()
+      handleSellStock(id, el)
+    })
   }
 }
