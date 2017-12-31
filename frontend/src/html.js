@@ -33,17 +33,23 @@ class HTML{
     </div>`
   }
 
-  static addStockToSidebar(id, el, price){
-    let sidebarDiv = document.getElementById(`sidebar-div-${id}`)
-    sidebarDiv.innerHTML += `<div class="">
+  static addStockToSidebar(portfolio, el, price){
+    let sidebarDiv = document.getElementById(`sidebar-div-${portfolio.id}`)
+    sidebarDiv.innerHTML += `<div id="sidebar-stock-${el.id}" class="">
         <h3>${el.ticker}</h3>
         <p>${price}</p>
         <p>Quantity: ${el.quantity}</p>
-        <button type="button" name="button" id="sell-portfolio-${id}-stockportfolio-${el.id}">Sell All ${el.ticker} Shares</button>
+        <button id="sell-portfolio-${portfolio.id}-stockportfolio-${el.id}">Sell All ${el.ticker} Shares</button>
       </div>`
-    document.getElementById(`sell-portfolio-${id}-stockportfolio-${el.id}`).addEventListener('click',(e) => {
-      e.preventDefault()
-      handleSellStock(id, el)
-    })
+
+      let button = document.getElementById(`sell-portfolio-${portfolio.id}-stockportfolio-${el.id}`)
+      console.log(button)
+      button.addEventListener('click',(e) => {
+        console.log('entered')
+        e.preventDefault()
+        console.log('entered')
+        handleSellStock(portfolio, el)
+      })
+
   }
 }

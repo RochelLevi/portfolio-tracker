@@ -26,6 +26,12 @@ class Adapter{
     }).then(res => res.json())
   }
 
+  static deleteStock(id){
+    return fetch(`http://localhost:3000/api/stockportfolios/${id}`, {
+      method: "DELETE"})
+    
+  }
+
   static addStockToPortfolio(portfolio, ticker, quantity){
     return fetch(`http://localhost:3000/api/stockportfolios`, {
       method: "POST",

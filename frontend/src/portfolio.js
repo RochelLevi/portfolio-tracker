@@ -14,15 +14,13 @@ let Portfolio = (function createPortfolioClass(){
       return [...all]
     }
 
-    getStockPrices() {
-      this.stocks.forEach((stock) => {
-      Adapter.getStockPrice(stock.ticker)
-      .then(data => data["latestPrice"])
-      // .then(data => data['Time Series (1min)'])
-      // .then(obj => obj[Object.keys(obj).reduce(function(b, a){ return obj[a] > obj[b] ? a : b })]['4. close'])
-        // console.log(stock.price)
-      })
-    }
+    // getStockPrices() {
+    //   this.stocks.forEach((stock) => {
+    //   Adapter.getStockPrice(stock.ticker)
+    //   .then(data => data["latestPrice"])
+    //
+    //   })
+    // }
 
     renderPieChart(dataForChart) {
       const valueEl = document.getElementById(`portfolio-value-${this.id}`)
@@ -63,18 +61,16 @@ let Portfolio = (function createPortfolioClass(){
           //so rendering within the promise
           // .then(dataForChart => this.renderPieChart(dataForChart))
           .then(dataForChart => {dataForChart.length > this.stocks.length + 1 ?  this.renderPieChart(dataForChart) : null})
-          // console.log(`dataForChartLength ${dataForChart.length}`); console.log(`thisStocksLength  ${this.stocks.length}`);
         })
         return 1
       }
-
 
     renderSidebar(){
       let id = this.id
       this.stocks.forEach((el) => {
         Adapter.getStockPrice(el.ticker)
             .then(data => data["latestPrice"])
-            .then((price) => HTML.addStockToSidebar(id, el, price))
+            .then((price) => HTML.addStockToSidebar(this, el, price))
       })
     }
 

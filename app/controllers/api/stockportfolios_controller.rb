@@ -5,6 +5,11 @@ class Api::StockportfoliosController < ApplicationController
     render json: @stockportfolio
   end
 
+  def destroy
+    @stockportfolio = Stockportfolio.find(params[:id])
+    @stockportfolio.destroy
+  end
+
 
   private
     def stockportfolio_params

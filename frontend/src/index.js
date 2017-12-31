@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded",() => {
       HTML.addPortfolioHtml(el)
       el.createDataArrayAndRenderPieChart()
       el.renderSidebar(el.id)
+      
     })})
     .then(addEventListenersToStockForm)
 
