@@ -55,7 +55,7 @@ let Portfolio = (function createPortfolioClass(){
         let stockTicker = el.ticker
         let quantity = el.quantity
         Adapter.getStockPrice(stockTicker)
-          .then(data => data["latestPrice"])
+          // .then(data => data["latestPrice"])
           .then((price) => {(this.dataForChart).push([stockTicker, parseFloat(price).toFixed(2)*quantity]); return this.dataForChart})
           //dataForChart for some reason collapses outside of the promise. Can't figure it out
           //so rendering within the promise
@@ -69,7 +69,6 @@ let Portfolio = (function createPortfolioClass(){
       let id = this.id
       this.stocks.forEach((el) => {
         Adapter.getStockPrice(el.ticker)
-            .then(data => data["latestPrice"])
             .then((price) => HTML.addStockToSidebar(this, el, price))
       })
     }

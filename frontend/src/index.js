@@ -4,21 +4,19 @@ document.addEventListener("DOMContentLoaded",() => {
 
   Adapter.getPortfolios()
     .then(data => data.forEach((el) =>{
-        new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance)
+        let portfolio = new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance)
+        handlePortfolioRefresh(portfolio)
       }))
-    .then(() => {Portfolio.all().forEach((el) => {
-      HTML.addPortfolioHtml(el)
-      el.createDataArrayAndRenderPieChart()
-      el.renderSidebar(el.id)
-      
-    })})
-    .then(addEventListenersToStockForm)
+    .then(() => Portfolio.all().forEach((portfolio) => handleAddStockFormListener(portfolio)))
 
   newPortfolioForm.addEventListener('submit', (event) => {
     event.preventDefault()
     name = document.getElementById(`add-portfolio-name`).value
-    handleNewPortfolio(name)
     newPortfolioForm.reset()
+    Adapter.addPortfolio(name)
+      .then(el => new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance))
+      .then(portfolio => {handlePortfolioRefresh(portfolio); return portfolio})
+      .then((portfolio) => handleAddStockFormListener(portfolio))
   })
 
 })

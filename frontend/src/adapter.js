@@ -2,6 +2,7 @@ class Adapter{
   static getStockPrice(ticker){
     return fetch(`https://api.iextrading.com/1.0/stock/${ticker}/quote`)
       .then(resp => resp.json())
+      .then(data => data["latestPrice"])
   }
 
   static getPortfolios(){
@@ -29,7 +30,7 @@ class Adapter{
   static deleteStock(id){
     return fetch(`http://localhost:3000/api/stockportfolios/${id}`, {
       method: "DELETE"})
-    
+
   }
 
   static addStockToPortfolio(portfolio, ticker, quantity){
