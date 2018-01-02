@@ -1,57 +1,40 @@
 function handleNewStock(portfolio, ticker, quantity, cost){
-  Adapter.changePortfolioCashBalance(portfolio, cost)
-    .then(data => portfolio.cashBalance = data.cash_balance)
-    .then((x) => x ? Adapter.addStockToPortfolio(portfolio, ticker, quantity) : x)
-    .then(data => data? portfolio.stocks.push(data) : data)
-    .then((x) => x ? portfolio.createDataArrayAndRenderPieChart() : x)
-    .then((x) => x ? HTML.addStockToSidebar(portfolio, portfolio.stocks[portfolio.stocks.length - 1], (cost/quantity)) : null)
+  if(cost <=  portfolio.cashBalance){
+    Adapter.changePortfolioCashBalance(portfolio, cost)
+      .then(data => portfolio.cashBalance = data.cash_balance)
+      .then(() => Adapter.addStockToPortfolio(portfolio, ticker, quantity))
+      .then(data => portfolio.stocks.push(data))
+      .then(() => portfolio.refresh())
 
+  }
 }
 
-// function handleNewPortfolio(name){
-//   Adapter.addPortfolio(name)
-//       .then()
-//       .then(portfolio => {HTML.addPortfolioHtml(portfolio); return portfolio})
-//
-// }
 
-function handlePortfolioRefresh(portfolio){
-    //add html
-    HTML.addPortfolioHtml(portfolio)
-
-    //render sidebar
-    portfolio.renderSidebar()
-
-    //render pie chart
-    portfolio.createDataArrayAndRenderPieChart()
+function handleNewPortfolio(name){
+  Adapter.addPortfolio(name)
+      .then(el => new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance))
+      .then(portfolio => {portfolio.refresh(); return portfolio})
+      .then(portfolio => portfolio.addStockFormListener())
 }
 
-function handleAddStockFormListener(portfolio){
-  //add listener for new stocks
-  let form = document.getElementById(`add-stock-form-${portfolio.id}`)
-  form.addEventListener('submit',(event) => {
-    event.preventDefault()
-    ticker = document.getElementById(`add-stock-form-ticker-${portfolio.id}`).value.toUpperCase()
-    quantity = document.getElementById(`add-stock-form-quantity-${portfolio.id}`).value
-    cost = Adapter.getStockPrice(ticker)
-      .then(price => price * quantity)
-      .then(cost => handleNewStock(portfolio, ticker, quantity, cost))
-    form.reset()
+
+
+function handleSellStock(portfolio_id, stock_id){
+  // console.log("portfolio_id: " + portfolio_id + " stock_id: " + stock_id);
+  let portfolio = Portfolio.all().find((portfolio) => {
+    return portfolio.id === portfolio_id
   })
-
-
-}
-
-
-
-function handleSellStock(portfolio, stock){
+  let stock = portfolio.stocks.find((stock) => {
+    return stock.id === stock_id
+  })
   Adapter.getStockPrice(stock.ticker)
     .then(price => Adapter.changePortfolioCashBalance(portfolio, price * (-stock.quantity)))
+    .then(data => portfolio.cashBalance = data.cash_balance)
     .then(() => Adapter.deleteStock(stock.id))
     .then(() => {
       stockDiv = document.getElementById(`sidebar-stock-${stock.id}`)
       stockDiv.parentNode.removeChild(stockDiv)
     })
-    //should delete stock locally here
+    .then(() => portfolio.deleteStockById(stock.id))
     .then(() => portfolio.createDataArrayAndRenderPieChart())
 }

@@ -5,18 +5,15 @@ document.addEventListener("DOMContentLoaded",() => {
   Adapter.getPortfolios()
     .then(data => data.forEach((el) =>{
         let portfolio = new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance)
-        handlePortfolioRefresh(portfolio)
+        portfolio.refresh()
       }))
-    .then(() => Portfolio.all().forEach((portfolio) => handleAddStockFormListener(portfolio)))
+    .then(() => Portfolio.all().forEach((portfolio) => portfolio.addStockFormListener()))
 
   newPortfolioForm.addEventListener('submit', (event) => {
     event.preventDefault()
     name = document.getElementById(`add-portfolio-name`).value
     newPortfolioForm.reset()
-    Adapter.addPortfolio(name)
-      .then(el => new Portfolio(el.id, el.user_id, el.name, el.stockportfolios, el.cash_balance))
-      .then(portfolio => {handlePortfolioRefresh(portfolio); return portfolio})
-      .then((portfolio) => handleAddStockFormListener(portfolio))
+    handleNewPortfolio(name)
   })
 
 })

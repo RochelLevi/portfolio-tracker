@@ -14,6 +14,11 @@ let Portfolio = (function createPortfolioClass(){
       return [...all]
     }
 
+    deleteStockById(id){
+      let index = this.stocks.findIndex((stock) => stock.id === id)
+      this.stocks.splice(index, 1)
+    }
+
     // getStockPrices() {
     //   this.stocks.forEach((stock) => {
     //   Adapter.getStockPrice(stock.ticker)
@@ -51,27 +56,53 @@ let Portfolio = (function createPortfolioClass(){
 
     createDataArrayAndRenderPieChart(){
       this.dataForChart = [['Position', 'Value'], ['Cash', this.cashBalance]]
-      this.stocks.forEach((el) => {
-        let stockTicker = el.ticker
-        let quantity = el.quantity
-        Adapter.getStockPrice(stockTicker)
-          // .then(data => data["latestPrice"])
-          .then((price) => {(this.dataForChart).push([stockTicker, parseFloat(price).toFixed(2)*quantity]); return this.dataForChart})
-          //dataForChart for some reason collapses outside of the promise. Can't figure it out
-          //so rendering within the promise
-          // .then(dataForChart => this.renderPieChart(dataForChart))
-          .then(dataForChart => {dataForChart.length > this.stocks.length + 1 ?  this.renderPieChart(dataForChart) : null})
-        })
-        return 1
+      if (this.stocks.length){
+        this.stocks.forEach((el) => {
+          let stockTicker = el.ticker
+          let quantity = el.quantity
+          Adapter.getStockPrice(stockTicker)
+            .then((price) => {(this.dataForChart).push([stockTicker, parseFloat(price).toFixed(2)*quantity]); return this.dataForChart})
+            //dataForChart for some reason collapses outside of the promise. Can't figure it out
+            //so rendering within the promise
+            .then(dataForChart => {dataForChart.length > this.stocks.length + 1 ?  this.renderPieChart(dataForChart) : null})
+          })
+        }
+        else{
+          this.renderPieChart(this.dataForChart)
+        }
       }
 
     renderSidebar(){
-      let id = this.id
+      document.getElementById(`sidebar-div-${this.id}`).innerHTML = null
       this.stocks.forEach((el) => {
         Adapter.getStockPrice(el.ticker)
             .then((price) => HTML.addStockToSidebar(this, el, price))
       })
     }
+
+    refresh(){
+        //add html
+        HTML.addPortfolioHtml(this)
+        //render sidebar
+        this.renderSidebar()
+        //render pie chart
+        this.createDataArrayAndRenderPieChart()
+    }
+
+    addStockFormListener(){
+      //add listener for new stocks
+      let form = document.getElementById(`add-stock-form-${this.id}`)
+      form.addEventListener('submit',(event) => {
+        event.preventDefault()
+        let ticker = document.getElementById(`add-stock-form-ticker-${this.id}`).value.toUpperCase().trim()
+        let quantity = document.getElementById(`add-stock-form-quantity-${this.id}`).value
+        form.reset()
+        Adapter.getStockPrice(ticker)
+          .then(price => price * quantity)
+          .then(totalCost => handleNewStock(this, ticker, quantity, totalCost))
+      })
+    }
+
 
   }
 })()
